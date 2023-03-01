@@ -12,10 +12,10 @@ FileDir="$HomeDir/$GitRepo/$Ym"
 FileName="$Ymd".py
 
 mkdir -p $FileDir
-
-echo " print("TODAY IS $Ymd ! Happy Coding! ") " >> $FileDir/$FileName
+echo "### $Ymd"
+echo " print(\"TODAY IS $Ymd ! Happy Coding! \") " >> $FileDir/$FileName
 
 cd $GitDir
 git add .
-git commit -m '$FileName commit'
+git commit -m '\$FileName commit'
 git push origin master
