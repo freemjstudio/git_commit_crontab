@@ -17,5 +17,5 @@ echo " print(\"TODAY IS $Ymd ! Happy Coding! \") " >> $FileDir/$FileName
 
 cd $GitDir
 git add .
-git commit -m '\$FileName commit'
+git commit -m "1day 1commit 😺 "
 git push origin master
