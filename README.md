@@ -20,5 +20,6 @@ MacOS 기준 crontab field 는 다음과 같다.
  0 8 * * * /Users/test_user/git_commit_crontab/scheduler/git_scheduler.sh
  
  
-주의 ! 컴퓨터 전원꺼진 상태에서는 작동안함 
+ 
+### 주의 ! 컴퓨터 전원꺼진 상태에서는 작동안함 
 -> GCP f1-micro(vCPU 1개, 0.6GB 메모리) 서버를 사용
