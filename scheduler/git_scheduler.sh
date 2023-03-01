@@ -9,7 +9,7 @@ GitRepo="git_commit_crontab"
 HomeDir="/Users/freemjlab"
 GitDir="$HomeDir/$GitRepo"
 FileDir="$HomeDir/$GitRepo/$Ym"
-FileName="$Ymd_auto_commit".py
+FileName="$Ymd".py
 
 mkdir -p $FileDir
 
@@ -17,5 +17,5 @@ echo " print("TODAY IS $Ymd ! Happy Coding! ") " >> $FileDir/$FileName
 
 cd $GitDir
 git add .
-git commit -m '$FileName : commit'
+git commit -m '$FileName commit'
 git push origin master
