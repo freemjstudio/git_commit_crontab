@@ -1,8 +1,8 @@
 # git_commit_crontab
   
     
-### 당신의 1일 1커밋... crontab으로 자동화해보는 건 어떤가요?! 😺
-
+### 당신의 1일 1커밋... crontab으로 자동화해보는 건 어떤가요?! 😺. 
+scheduler/git_scheduler.sh : 커밋자동화 쉘스크립트 파일
 
 ### ubuntu / MacOS
 
